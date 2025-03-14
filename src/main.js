@@ -2,7 +2,7 @@ import './assets/tailwind.css' // Importe le fichier Tailwind CSS
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
-
+ 
 import App from './App.vue'
 import router from './router';
 import AOS from 'aos';
