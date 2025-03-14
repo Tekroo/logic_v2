@@ -1,5 +1,5 @@
 <template>
-  <section class="relative py-12 sm:py-32 lg:py-36 sm:my-0">
+  <section class="relative py-12 sm:py-32 lg:py-36 sm:my-0" data-aos="fade-up">
     <!-- Image de fond -->
     <div class="absolute inset-0">
       <img

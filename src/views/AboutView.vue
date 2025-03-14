@@ -1,5 +1,5 @@
 <template>
-  <section class="relative h-80 md:h-[300px] flex items-center justify-center text-white overflow-hidden">
+  <section class="relative h-80 md:h-[300px] flex items-center justify-center text-white overflow-hidden" >
     <!-- Image de fond avec overlay -->
     <div class="absolute inset-0 z-0">
       <img
@@ -27,7 +27,7 @@
 
   <div class="bg-white">
     <!-- Section principale -->
-    <section class="py-12 sm:py-16 lg:py-10 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+    <section class="py-12 sm:py-16 lg:py-10 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto" data-aos="fade-up">
       <!-- Texte d'introduction -->
       <p class="text-lg text-gray-600 text-justify sm:text-center max-w-2xl mx-auto mb-12">
         Chez Logic, nous nous engageons à fournir des solutions innovantes et durables pour répondre aux besoins de nos clients. Découvrez notre vision, notre mission et les valeurs qui guident notre entreprise.
@@ -53,7 +53,7 @@
       </div>
 
       <!-- Valeurs de l'entreprise -->
-      <div class="text-center">
+      <div class="text-center" data-aos="fade-up">
         <h2 class="text-3xl font-bold text-blue-900 mb-8">Nos Valeurs</h2>
         <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           <!-- Carte 1 : Intégrité -->

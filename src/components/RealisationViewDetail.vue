@@ -23,7 +23,7 @@
     </div>
   </section>
 
-  <section class="bg-white py-12">
+  <section class="bg-white py-12" data-aos="fade-up">
     <div class="container mx-auto px-4">
       <h1 class="text-3xl font-bold text-center text-blue-900 mb-8">{{ realisation?.title }}</h1>
       <div class="flex flex-col md:flex-row items-center gap-8">
@@ -50,7 +50,7 @@
   </section>
 
   <!-- Section galerie -->
-  <section class="bg-gray-50 py-12">
+  <section class="bg-gray-50 py-12" data-aos="fade-up">
     <div class="container mx-auto px-4">
       <h2 class="text-3xl md:text-4xl font-bold text-center text-blue-900 mb-8">Notre Galerie</h2>
 
@@ -61,6 +61,7 @@
           :key="index"
           class="cursor-pointer overflow-hidden rounded-lg shadow-md"
           @click="openLightbox(index)"
+           data-aos="flip-left"
         >
           <img
             :src="image.thumbnail"

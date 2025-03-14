@@ -21,7 +21,7 @@
     </div>
   </section>
 
-  <section class="bg-gray-50">
+  <section class="bg-gray-50" data-aos="fade-up">
     <div class="py-12 sm:py-16 lg:py-20 px-4 sm:px-20 mx-auto max-w-7xl">
       <div class="mb-12 sm:mb-16">
         <h1 class="text-3xl font-bold text-blue-900 mb-6">Contact information</h1>
@@ -118,7 +118,7 @@
         </div>
 
         <!-- Carte -->
-        <div class="h-96 md:h-auto order-1 md:order-2">
+        <div class="h-96 md:h-auto order-1 md:order-2" data-aos="fade-left">
           <div class="bg-white p-4 rounded-lg shadow-sm h-full">
             <h2 class="text-2xl font-bold text-blue-900 mb-4">Notre localisation</h2>
             <div class="rounded-lg overflow-hidden h-full">

@@ -25,7 +25,7 @@
     </div>
   </section>
 
-  <div class="container mx-auto px-4 py-16">
+  <div class="container mx-auto px-4 py-16" data-aos="fade-up">
     <!-- Mot du directeur -->
     <div
       class="bg-gray-100 p-8 rounded-lg shadow-md flex flex-col md:flex-row items-center md:items-start space-y-8 md:space-y-0 md:space-x-8"

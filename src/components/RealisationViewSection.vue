@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-gray-50 sm:py-16 lg:py-20 py-12 relative overflow-hidden">
+  <section class="bg-gray-50 sm:py-16 lg:py-20 py-12 relative overflow-hidden" data-aos="fade-up">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <h2 class="text-3xl md:text-4xl font-bold text-center text-blue-900 mb-12">
         Nos réalisations

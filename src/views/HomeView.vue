@@ -1,10 +1,10 @@
 <template>
   <div>
-    <IntroAccueil />
+    <IntroAccueil /> 
     <ServiceView />
     <EngagementView />
     <RealisationViewSection />
-    <section class="bg-blue-50 py-12 sm:py-16 lg:py-20">
+    <section class="bg-blue-50 py-12 sm:py-16 lg:py-20" data-aos="fade-up">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <!-- Titre de la section -->
         <h2 class="text-3xl md:text-4xl font-bold text-center text-blue-900 mb-12">

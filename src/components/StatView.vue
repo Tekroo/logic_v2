@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-gray-50 py-16 sm:py-32">
+  <section class="bg-gray-50 py-16 sm:py-32" data-aos="fade-up">
     <div class="container mx-auto px-4">
       <!-- Avis Clients -->
       <h2 class="text-3xl md:text-4xl font-bold text-center text-blue-900 mb-12">

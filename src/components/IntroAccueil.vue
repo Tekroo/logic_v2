@@ -16,7 +16,7 @@
     </div>
   </section>
   <!-- Introduction -->
-  <section class="py-12 sm:py-28 sm:px-28 bg-white sm:mx-full">
+  <section class="py-12 sm:py-28 sm:px-28 bg-white sm:mx-full" data-aos="fade-up">
     <div class="max-w-7xl mx-auto px-4 lg:px-8">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center justify-center">
         <div class="md:text-left">
@@ -46,6 +46,8 @@
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+
+</script>
 
 <style scoped></style>

@@ -28,7 +28,7 @@
   </section>
 
   <section class="bg-white py-12">
-    <div class="container mx-auto px-4">
+    <div class="container mx-auto px-4" data-aos="fade-up">
       <h2 class="text-3xl font-bold text-center text-blue-900 mb-8">Nos réalisations</h2>
 
       <!-- Filtres par catégorie -->
@@ -87,7 +87,7 @@
           ]"
         >
           <!-- Image -->
-          <div class="w-full md:w-1/2">
+          <div class="w-full md:w-1/2" data-aos="fade-right">
             <img
               :src="project.image"
               :alt="project.title"
@@ -96,7 +96,7 @@
           </div>
 
           <!-- Texte -->
-          <div class="w-full md:w-1/2">
+          <div class="w-full md:w-1/2" data-aos="fade-left">
             <h3 class="text-2xl font-semibold text-blue-900 mb-4">{{ project.title }}</h3>
             <p class="text-gray-600 mb-4">{{ project.description }}</p>
             <router-link
