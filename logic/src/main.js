@@ -1,5 +1,4 @@
 import './assets/tailwind.css' // Importe le fichier Tailwind CSS
-import 'flowbite'; // Importe Flowbite
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
