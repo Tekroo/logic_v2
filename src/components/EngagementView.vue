@@ -9,7 +9,7 @@
         <div class="w-full md:w-1/2">
           <img
             src="@/assets/en.webp"
-            alt="Nos engagements"
+            alt="Nos engagements" 
             class="rounded-lg shadow-md w-full h-72 md:h-96"
           />
         </div>
@@ -27,7 +27,7 @@
             activement à contribuer positivement à sa communauté locale et minimiser ses empreintes
             environnementales .
           </p>
-          <router-link to="/a-propos" class="text-blue-500 hover:text-blue-700 font-semibold">
+          <router-link to="/about" class="text-blue-500 hover:text-blue-700 font-semibold">
             En savoir plus →
           </router-link>
         </div>

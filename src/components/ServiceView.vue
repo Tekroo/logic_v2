@@ -8,7 +8,7 @@
         <div
           v-for="(service, index) in MyService"
           :key="service.id"
-          :class="[
+          :class="[ 
             'group relative bg-white rounded-lg shadow-md overflow-hidden sm:transition-transform sm:transform sm:hover:scale-105 hover:shadow-lg min-h-[400px]',
             index === MyService.length - 2 ? 'sm:col-span-1 lg:col-span-1 lg:col-start-1' : '',
             index === MyService.length - 1 ? 'sm:col-span-2 lg:col-span-1 lg:col-start-3' : '',
@@ -43,6 +43,11 @@
 </template>
 
 <script setup>
+import batiment from '@/assets/batiment.webp'
+import beton from '@/assets/beton.webp'
+import engins from '@/assets/engins.webp'
+import prefa from '@/assets/prefa.webp'
+import piste from '@/assets/piste.webp'
 
 import AOS from 'aos';
 import 'aos/dist/aos';
@@ -52,14 +57,14 @@ import { ref } from 'vue'
 const MyService = ref([
   {
     id: '1',
-    image: 'src/assets/batiment.webp',
+    image: batiment,
     titre: 'Bâtiment Travaux Publics',
     description: " Construction de bâtiments ainsi que la réalisationd'infrastructures publiques.",
     linkformore: '#routelink',
   },
   {
     id: '2',
-    image: 'src/assets/beton.webp',
+    image: beton,
     titre: 'Vente de Béton',
     description:
       "Nous fournissons du béton prêt à l'emploiaux entreprises de construction, auxentrepreneurs et aux particuliers pour leursprojets de construction.",
@@ -67,7 +72,7 @@ const MyService = ref([
   },
   {
     id: '3',
-    image: 'src/assets/engins.webp',
+    image: engins,
     titre: "Location d'engins lourds",
     description:
       "Service de mise à disposition temporaire de machines de construction et d'équipements lourds. ",
@@ -75,14 +80,14 @@ const MyService = ref([
   },
   {
     id: '4',
-    image: 'src/assets/prefa.webp',
+    image: prefa,
     titre: 'Préfa',
     description: 'Nous commercialisons des éléments de construction préfabriqués en usine. ',
     linkformore: '#routelink',
   },
   {
     id: '5',
-    image: 'src/assets/piste.webp',
+    image: piste,
     titre: 'Assainissement et Aménagement des pistes',
     description:
       " Comprend la construction, la rénovation ou l'entretien des routes, des chemins de terre et autres.",

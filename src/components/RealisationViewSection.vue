@@ -45,24 +45,29 @@
 
 <script setup>
 import { ref } from 'vue'
+// Importations des images
+import bat2 from '@/assets/bat2.webp'
+import latrine2 from '@/assets/latrine2.webp'
+import piste_pacer from '@/assets/piste_pacer.webp'
+
 const Projects = ref([
   {
     id: '1',
-    image: 'src/assets/bat2.webp',
+    image: bat2,
     titre: 'Caserne Allada',
     description:
       'Description concise du projet 3. Mettez en avant les aspects clés de cette réalisation.',
   },
   {
     id: '2',
-    image: 'src/assets/latrine2.webp',
+    image: latrine2,
     titre: 'Mairie de Parakou',
     description:
       'Description concise du projet 3. Mettez en avant les aspects clés de cette réalisation.',
   },
   {
     id: '3',
-    image: 'src/assets/piste_pacer.webp',
+    image: piste_pacer,
     titre: 'Piste PACER',
     description:
       'Description concise du projet 3. Mettez en avant les aspects clés de cette réalisation.',

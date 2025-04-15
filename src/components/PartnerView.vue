@@ -47,13 +47,18 @@ import { onMounted } from 'vue'
 import Swiper from 'swiper'
 import 'swiper/swiper-bundle.css' // Importez les styles de Swiper
 
-// Données des partenaires
+// Importation des images
+import ola from '@/assets/ola.webp'
+import sirat from '@/assets/sirat.webp'
+import mtc from '@/assets/mtc.webp'
+import bsbtp from '@/assets/bsbtp.webp'
+
 const partners = [
-  { name: 'Partenaire 1', image: 'src/assets/ola.webp' },
-  { name: 'Partenaire 2', image: 'src/assets/sirat.webp' },
-  { name: 'Partenaire 3', image: 'src/assets/mtc.webp' },
-  { name: 'Partenaire 4', image: 'src/assets/bsbtp.webp' },
-  { name: 'Partenaire 5', image: 'src/assets/sirat.webp' },
+  { name: 'Partenaire 1', image: ola },
+  { name: 'Partenaire 2', image: sirat },
+  { name: 'Partenaire 3', image: mtc },
+  { name: 'Partenaire 4', image: bsbtp },
+  { name: 'Partenaire 5', image: sirat }, // Réutilisation de la même image
 ]
 
 // Initialisation du carrousel après le rendu du composant
